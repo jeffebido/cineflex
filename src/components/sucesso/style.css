@@ -1,0 +1,25 @@
+.title.success{
+    color: #247A6B;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.info-pedido h4{
+    color: #293845;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.info-pedido p{
+    color: #293845;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+.info-pedido .finaliza{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
