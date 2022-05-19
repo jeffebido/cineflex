@@ -1,0 +1,75 @@
+.assentos-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+   
+    justify-items: center;
+}
+.assento{
+    width: 26px;
+    height: 26px;
+    box-sizing: border-box;
+    background: #C3CFD9;
+    border: 1px solid #808F9D;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+}
+.assento.selecionado{
+    background: #8DD7CF;
+    border: 1px solid #45BDB0;
+}
+.assento.indisponivel{
+    background: #FBE192;
+    border: 1px solid #F7C52B;
+}
+.legenda{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.legenda-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.legenda-item p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+.input-dados{
+    margin-top: 40px;
+}
+.input-dados input{
+    width: 100%;
+    border: 1px solid #D4D4D4;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #272727;
+    box-sizing: border-box;
+    padding: 18px;
+}
+.input-dados input::placeholder{
+
+    font-style: italic;
+
+    color: #AFAFAF;
+
+}
+.input-dados .submit{
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

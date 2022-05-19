@@ -1,0 +1,39 @@
+footer{
+	height: 120px;
+	width: 100%;
+    background: #DFE6ED;
+    border-top: 1px solid #9EADBA;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+}
+footer .movie-img{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    height: 100%;
+    width: 64px;
+    padding: 8px;
+}
+footer .movie-img img{
+    height: 100%;
+    width: auto;
+}
+footer .movie-img img{
+    height: 100%;
+    width: auto;
+}
+footer .info h3{
+    color: #293845;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 14px;
+}

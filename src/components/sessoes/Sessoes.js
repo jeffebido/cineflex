@@ -1,7 +1,8 @@
 
 import Botao from "../layout/botao/Botao";
+import Footer from "../layout/footer/Footer";
 
-export default function Filme() {
+export default function Sessoes() {
 
     return (
         <>
@@ -15,6 +16,7 @@ export default function Filme() {
                 <h2 className="pt-20 pb-20">Quinta-feira - 24/06/2021</h2>
                 <Botao /> <Botao />
             </div>
+            <Footer />
         </>
     );
 
