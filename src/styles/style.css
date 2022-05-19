@@ -1,8 +1,12 @@
 /* GLOBAL */
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, span, pre, strong, a, input{
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, span, pre, strong, a, input, button{
 	font-family: 'Roboto', sans-serif;
 }
-
+h2{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+}
 .title{
 	margin-top: 70px;
 	display: flex;
@@ -21,6 +25,12 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, span, pre, strong, a, input{
 .container{
 	width: 100%;
 	box-sizing: border-box;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.pt-20{
+	padding-top: 20px;
+}
+.pb-20{
+	padding-bottom: 20px;
 }

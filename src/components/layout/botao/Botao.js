@@ -3,7 +3,7 @@ import "./style.css";
 export default function Botao() {
 
     return (
-        <h1>Batata</h1>
+        <button>19:00</button>
     );
 
 }
