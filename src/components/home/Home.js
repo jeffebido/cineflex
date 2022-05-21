@@ -1,7 +1,35 @@
 import "./style.css";
 
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+
+
+function MovieCard({source, id}){
+    return (
+        <div className="movie-card" key={id}>
+            <img src={source} />
+        </div>
+    );
+}
+
 
 export default function Home() {
+
+
+    const [movies, setMovies] = useState([]);
+
+    useEffect(() => {
+
+        const promise = axios.get(
+            'https://mock-api.driven.com.br/api/v5/cineflex/movies'
+        );
+
+        promise.then((response) => {
+            setMovies(response.data);
+        });
+
+    }, []);
+
 
     return (
         <>
@@ -11,34 +39,10 @@ export default function Home() {
 
             <div className="container">
                 <div className="movies-grid">
-                    <div className="movie-card">
-                        <img src="https://lojasaraiva.vteximg.com.br/arquivos/ids/12109083/1006637057.jpg" />
-                    </div>
-                    <div className="movie-card">
-                        <img src="https://lojasaraiva.vteximg.com.br/arquivos/ids/12109083/1006637057.jpg" />
-                    </div>
-                    <div className="movie-card">
-                        <img src="https://lojasaraiva.vteximg.com.br/arquivos/ids/12109083/1006637057.jpg" />
-                    </div>
-                    <div className="movie-card">
-                        <img src="https://lojasaraiva.vteximg.com.br/arquivos/ids/12109083/1006637057.jpg" />
-                    </div>
-                    <div className="movie-card">
-                        <img src="https://lojasaraiva.vteximg.com.br/arquivos/ids/12109083/1006637057.jpg" />
-                    </div>
-                    <div className="movie-card">
-                        <img src="https://lojasaraiva.vteximg.com.br/arquivos/ids/12109083/1006637057.jpg" />
-                    </div>
-                    <div className="movie-card">
-                        <img src="https://lojasaraiva.vteximg.com.br/arquivos/ids/12109083/1006637057.jpg" />
-                    </div>
-                    <div className="movie-card">
-                        <img src="https://lojasaraiva.vteximg.com.br/arquivos/ids/12109083/1006637057.jpg" />
-                    </div>
+                  {movies.map( movie => <MovieCard source={movie.posterURL} key={movie.id} /> ) }
                 </div>
 
             </div>
         </>
     );
-
 }
