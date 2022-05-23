@@ -50,7 +50,7 @@ export default function Sessoes() {
                 </div>
 
                 <div className="container">
-                {dados.days.map( dia => <SessaoItem dia={dia} key={dia.id}/> ) }
+                    {dados.days.map( dia => <SessaoItem dia={dia} key={dia.id}/> ) }
 
                 </div>
                 <Footer img={dados.posterURL} filme={dados.title}/>
