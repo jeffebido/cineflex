@@ -1,6 +1,6 @@
 import "./style.css";
 import {useLocation} from 'react-router-dom';
-
+import { Link } from "react-router-dom";
 import Botao from "../layout/botao/Botao";
 
 function ListaAssentos({seat}){
@@ -33,7 +33,9 @@ export default function Sucesso() {
                     <p>CPF: {location.state.info.cpf}</p>
 
                     <div className="finaliza">
-                        <Botao />
+                        <Link to={`/`} >
+                            <Botao text="Voltar pra Home" />
+                        </Link>
                     </div>
                 </div>
 
