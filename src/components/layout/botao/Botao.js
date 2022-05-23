@@ -1,9 +1,9 @@
 import "./style.css";
 
-export default function Botao() {
+export default function Botao({text}) {
 
     return (
-        <button>19:00</button>
+        <button>{text}</button>
     );
 
 }

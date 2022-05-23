@@ -1,8 +1,14 @@
+import { useState, useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
+import axios from "axios";
+
 import "./style.css";
 import Botao from "../layout/botao/Botao";
 import Footer from "../layout/footer/Footer";
 
 export default function Assentos() {
+
+    const { idSessao } = useParams();
 
     return (
         <>

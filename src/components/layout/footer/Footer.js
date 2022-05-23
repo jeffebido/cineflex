@@ -1,15 +1,15 @@
 import "./style.css";
 
-export default function Footer() {
+export default function Footer({img, filme, dia, horario}) {
 
     return (
         <footer>
             <div className="movie-img">
-                <img src="https://lojasaraiva.vteximg.com.br/arquivos/ids/12109083/1006637057.jpg" />
+                <img src={img === null ? ('') : (img) } />
             </div>
             <div className="info">
-                <h3>Enola Holmes</h3>
-                <h3>Quinta-feira - 15:00</h3>
+                <h3>{filme === null ? ('') : (filme) }</h3>
+                <h3>{dia === null ? ('') : (dia ) } {horario === null ? ('') : (horario) }</h3>
             </div>
         </footer>
     ); 
