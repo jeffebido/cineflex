@@ -97,7 +97,7 @@ export default function Assentos() {
 
                     <div className="legenda">
                         <div className="legenda-item">
-                            <div className="assento "></div>
+                            <div className="assento selected"></div>
                             <p>Selecionado</p>
                         </div>
                         <div className="legenda-item">

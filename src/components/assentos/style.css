@@ -19,7 +19,7 @@
     font-size: 11px;
     line-height: 13px;
 }
-.assento.selecionado{
+.assento.selecionado, .assento.selected{
     background: #8DD7CF;
     border: 1px solid #45BDB0;
 }

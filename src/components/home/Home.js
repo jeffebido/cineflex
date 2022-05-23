@@ -33,17 +33,19 @@ export default function Home() {
 
 
     return (
-        <>
-            <div className="title">
-                <h1>Selecione o filme</h1>
-            </div>
-
-            <div className="container">
-                <div className="movies-grid">
-                  {movies.map( movie => <MovieCard source={movie.posterURL} id={movie.id}  key={movie.id}/> ) }
+        movies === null ? (<div className="loading">Carregando...</div>): (
+            <>  
+                <div className="title">
+                    <h1>Selecione o filme</h1>
                 </div>
 
-            </div>
-        </>
-    );
+                <div className="container">
+                    <div className="movies-grid">
+                    {movies.map( movie => <MovieCard source={movie.posterURL} id={movie.id}  key={movie.id}/> ) }
+                    </div>
+
+                </div>
+            </>
+        )
+    )
 }
