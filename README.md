@@ -20,7 +20,9 @@
   ---
   
  <h4 align="center">
-     Uma Single-Page Application (SPA) para um cinema, usando React Router, para reserva de sessões e assentos</a>.
+     Uma Single-Page Application (SPA) para um cinema, usando React Router, para reserva de sessões e assentos</a>. Faz consumo de API disponibilizada para listagens e reservas.
+     <br/>
+     Deploy: <a href="https://cineflex-steel.vercel.app/" target="_blank">https://cineflex-steel.vercel.app/</a>
  </h4>
   
 <div align="center">
