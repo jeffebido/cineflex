@@ -1,3 +1,32 @@
+<div align="center"> 
+  
+  <a href="https://cineflex-steel.vercel.app/" target="_blank">
+    <img src="https://github.com/jeffebido/cineflex/blob/main/src/cineflex-logo.png" alt="Logo">
+  </a>
+  
+[![wakatime](https://wakatime.com/badge/user/578c8c26-46da-4b46-a315-3eb46eecfb5a/project/40172a00-2523-46a1-b220-9ec02dc1dbb6.svg)](https://wakatime.com/badge/user/578c8c26-46da-4b46-a315-3eb46eecfb5a/project/40172a00-2523-46a1-b220-9ec02dc1dbb6)
+  
+</div>
+
+<div align="center">
+
+![uses-react](https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![uses-html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![uses-css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![uses-javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+  
+ </div>
+ 
+  ---
+  
+ <h4 align="center">
+     Uma Single-Page Application (SPA) para um cinema, usando React Router, para reserva de sessões e assentos</a>.
+ </h4>
+  
+<div align="center">
+    <img src="https://github.com/jeffebido/cineflex/blob/main/src/cineflex.gif" alt="Logo">
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,6 +42,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
 
 ### `npm test`
 
